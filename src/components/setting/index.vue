@@ -39,7 +39,8 @@ export default {
       this.$emit('open-drawer')
     },
     openSource() {
-      this.$emit('open-source')
+      // this.$emit('open-source')
+      alert('添加QQ获取源码：353087890')
     }
   }
 }

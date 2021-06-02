@@ -9,6 +9,3 @@ export default {
   name: 'WorkPlace'
 }
 </script>
-
-<style>
-</style>

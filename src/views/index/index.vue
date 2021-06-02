@@ -1,45 +1,18 @@
 <template>
   <el-card>
-    <template #header>
-      <div>
-        header
-      </div>
-    </template>
-    <div>
-      content
+    <div> 如果有任何疑问，请加QQ客服：353087890</div>
+    <div style="margin-top: 10px">完整版演示地址：
+      <a
+        style="color: currentColor"
+        href="http://qingqingxuan.gitee.io/vue-admin-work/"
+      >http://qingqingxuan.gitee.io/vue-admin-work/
+      </a>
     </div>
   </el-card>
 </template>
 
 <script>
-import store from '@/store'
 export default {
-  name: 'PersonalCenter',
-  data() {
-    return {
-      state: store.state,
-      inputContent: ''
-    }
-  },
-  methods: {
-    fixedHeader() {
-      store.toggleFixedNavBar(!store.state.isFixedNavBar)
-    },
-    changeMode() {
-      store.changeLayoutMode(store.randomLayouMode())
-    },
-    changeTheme() {
-      store.changeTheme(store.state.theme === 'dark' ? 'light' : 'dark')
-    },
-    go() {
-      this.$router.push({ name: 'pay' })
-    }
-  }
+  name: 'Index'
 }
 </script>
-
-<style>
-.main-container {
-  height: 200vh;
-}
-</style>
