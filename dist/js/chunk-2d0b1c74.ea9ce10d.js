@@ -1,0 +1,2 @@
+(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["chunk-2d0b1c74"],{"20ff":function(n,e,c){"use strict";c.r(e);var t=function(){var n=this,e=n.$createElement,c=n._self._c||e;return c("el-card",[n._v(" 商品管理 ")])},l=[],u={name:"Goods"},a=u,o=c("2877"),r=Object(o["a"])(a,t,l,!1,null,null,null);e["default"]=r.exports}}]);
+//# sourceMappingURL=chunk-2d0b1c74.ea9ce10d.js.map

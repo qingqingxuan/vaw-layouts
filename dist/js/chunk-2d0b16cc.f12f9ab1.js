@@ -1,0 +1,2 @@
+(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["chunk-2d0b16cc"],{2091:function(e,n,c){"use strict";c.r(n);var l=function(){var e=this,n=e.$createElement,c=e._self._c||n;return c("el-card",[e._v(" 所有的订单 ")])},r=[],t={name:"AllOrder"},u=t,a=c("2877"),s=Object(a["a"])(u,l,r,!1,null,null,null);n["default"]=s.exports}}]);
+//# sourceMappingURL=chunk-2d0b16cc.f12f9ab1.js.map
